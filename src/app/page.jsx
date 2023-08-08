@@ -1,7 +1,7 @@
-import MainTexts from "./components/MainTexts";
+import MainTexts from "../components/MainTexts";
 import Link from 'next/link'
 import Image from 'next/image'
-import Carousel from "./components/Carousel";
+import Carousel from "../components/Carousel";
 
 const Main = () => {
   return (

@@ -6,7 +6,7 @@ const Carousel = ({images}) => {
   const currentIndex = useRef(0);
   // eslint-disable-next-line 
   const [render, renderSet] = useState(0);
-  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+  const [screenWidth, setScreenWidth] = useState();
 
   const carouselStyle = {
     width:"100vw",
@@ -15,6 +15,7 @@ const Carousel = ({images}) => {
   };
 
   useEffect(() => {
+    setScreenWidth(window.innerWidth);
     const handleResize = () => {
       setScreenWidth(window.innerWidth);
     };
