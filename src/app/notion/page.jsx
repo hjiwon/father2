@@ -8,6 +8,7 @@ const Notion = async () => {
     auth: process.env.NOTION_KEY
   })
   const databaseId = process.env.NOTION_DATABASE_ID
+  let error;
 
   await notion.databases.query({
     database_id: databaseId,
@@ -15,6 +16,7 @@ const Notion = async () => {
     notionData = res.results;
   }).catch((err) => {
     console.log(err)
+    error = true;
   })
   const result = notionData?.map((item, index) => {
     console.log()
@@ -23,6 +25,7 @@ const Notion = async () => {
   
     return (
       <div key={index} className='bg-stone-300 p-5 m-5'>
+        {error && <div>에러가 발생했습니다.</div>}
         <div className='mb-10'>
           <h1 className='text-2xl notion-title text-center'>{item.properties.Name.title[0]?.plain_text}</h1>
           <span className='absolute right-8'>{item.properties.Date.date?.start}</span>
