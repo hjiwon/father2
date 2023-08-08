@@ -37,12 +37,10 @@ const Notion = async () => {
     );
   });
 
-  const resultToString = result?.toString();
-
   return (
     <div className='flex flex-col'>
-      {error && <div>에러가 발생했습니다.</div>}
-      {resultToString}
+      {error && <div>에러가 발생했습니다. 관리자에게 연락하세요.</div>}
+
       {result}
     </div>
   )
