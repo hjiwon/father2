@@ -21,7 +21,7 @@ const Notion = async () => {
   const result = notionData?.map((item, index) => {
 
     const content = item.properties.Content.rich_text[0]?.text.content;
-    const paragraphs = content?.split('\n'); // 텍스트를 줄 단위로 분할
+    const paragraphs = content?.split('\n');
   
     return (
       <div key={index} className='bg-stone-300 p-5 m-5'>
@@ -31,7 +31,7 @@ const Notion = async () => {
           <span className='absolute right-8'>{item.properties.Date.date?.start}</span>
         </div>
         {paragraphs?.map((paragraph, paragraphIndex) => (
-          <p key={paragraphIndex}>{paragraph}</p>
+          <p key={paragraphIndex}>{paragraph ? paragraph : 'ㅤ'}</p>
         ))}
       </div>
     );
