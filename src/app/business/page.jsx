@@ -2,10 +2,10 @@ const Business = () => {
   return (
     <div className="my-8 flex flex-col items-center">
       <h1 className='text-4xl'>
-        사업소개
+        사업안내
       </h1>
 
-      <div className="w-2/3 px-20 py-8 my-8 flex flex-col border border-stone-500 border-2 rounded-large border-dashed">
+      <div className="w-5/6 px-20 py-8 my-8 flex flex-col border border-stone-500 border-2 rounded-large border-dashed">
         <div className="text-2xl font-bold">
           사육신 연구소는
         </div>
@@ -17,8 +17,8 @@ const Business = () => {
       
       <div className="w-5/6">
         <div className="w-full flex gap-4">
-          <div className='w-1/3'>
-          <p className='text-xs border border-stone-300 border-2 border-dotted rounded-large py-5 text-center'>
+          <div className='w-1/3 flex flex-col items-center'>
+          <p className='text-xs w-full border border-stone-300 border-2 border-dotted rounded-large py-5 text-center'>
             <strong>건강관련 조사연구</strong>
             <br />
             <br />
@@ -30,7 +30,9 @@ const Business = () => {
             
           </p>
 
-          <p className='text-xs border border-stone-300 border-2 border-dotted rounded-large py-5 my-8 text-center'>
+          <div className="h-10 w-0 border-l-2 border-dotted" />
+
+          <p className='text-xs w-full border border-stone-300 border-2 border-dotted rounded-large py-5 text-center'>
             <strong>사회복지제도 홍보</strong>
             <br />
             <br />
@@ -40,7 +42,9 @@ const Business = () => {
             
           </p>
 
-          <p className='text-xs border border-stone-300 border-2 border-dotted rounded-large py-5  text-center'>
+          <div className="h-10 w-0 border-l-2 border-dotted" />
+
+          <p className='text-xs w-full border border-stone-300 border-2 border-dotted rounded-large py-5  text-center'>
             <strong>교육ㆍ건강강좌</strong>
             <br />
             <br />
@@ -55,8 +59,8 @@ const Business = () => {
           </p>
           </div>
 
-          <div className='w-1/3'>
-          <p className='text-xs border border-stone-300 border-2 border-dotted rounded-large py-5  text-center'>
+          <div className='w-1/3 flex flex-col items-center'>
+          <p className='text-xs w-full border border-stone-300 border-2 border-dotted rounded-large py-5  text-center'>
             <strong>복지 사각지대 이웃 발굴 지원</strong>
             <br />
             <br />
@@ -68,7 +72,10 @@ const Business = () => {
             
           </p>
 
-          <p className='text-xs border border-stone-300 border-2 border-dotted rounded-large py-5 my-8 text-center'>
+
+          <div className="h-10 w-0 border-l-2 border-dotted" />
+
+          <p className='text-xs w-full border border-stone-300 border-2 border-dotted rounded-large py-5 text-center'>
             <strong>사랑의 마음 운동</strong>
             <br />
             <br />
@@ -81,8 +88,8 @@ const Business = () => {
           </p>
           </div>
 
-          <div className='w-1/3'>
-          <p className='text-xs border border-stone-300 border-2 border-dotted rounded-large py-5  text-center'>
+          <div className='w-1/3 flex flex-col items-center'>
+          <p className='text-xs w-full border border-stone-300 border-2 border-dotted rounded-large py-5  text-center'>
             <strong>자원봉사자와 함께하는 작은 음악회</strong>
             <br />
             <br />
@@ -92,7 +99,9 @@ const Business = () => {
             
           </p>
 
-          <p className='text-xs border border-stone-300 border-2 border-dotted rounded-large py-5 my-8 text-center'>
+          <div className="h-10 w-0 border-l-2 border-dotted" />
+
+          <p className='text-xs w-full border border-stone-300 border-2 border-dotted rounded-large py-5 text-center'>
             <strong>환경지킴이 활동</strong>
             <br />
             <br />
