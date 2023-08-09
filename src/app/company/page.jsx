@@ -4,7 +4,7 @@ const Hello = () => {
     return (
         <div className="flex flex-col items-center">
 
-          <Image className="w-52 my-10" src="/Hello.jpeg" alt="" width={100} height={100} />
+          <Image className="w-52 my-10" src="/Hello.jpeg" alt="" width={600} height={600} />
           <span>
             <span className="text-xl">반갑습니다! <br /> <br /></span>
             사육신 건강지킴이 연구소 <br />
