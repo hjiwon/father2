@@ -10,6 +10,7 @@ const Photozone = () => {
         <Image className="w-full" src="/picture3.jpeg" alt="" width={1100} height={1100}/>
         <Image className="w-full" src="/picture4.jpeg" alt="" width={1100} height={1100}/>
         <Image className="w-full" src="/picture5.jpeg" alt="" width={1100} height={1100}/>
+        <Image className="w-full" src="/picture6.jpeg" alt="" width={1100} height={1100}/>
       </div>
 
     </div>
