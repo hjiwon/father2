@@ -9,7 +9,7 @@ const Navbar = () => {
         <Link href='/company' className="hover:underline hover:underline-offset-8">인사말</Link>
         <Link href='/info' className="hover:underline hover:underline-offset-8">대표자 소개</Link>
         <Link href='/photozone' className="hover:underline hover:underline-offset-8">포토존</Link>
-        <Link href='/notion' className="hover:underline hover:underline-offset-8">노션</Link>
+        <Link href='/notion' className="hover:underline hover:underline-offset-8">대내외 활동</Link>
         {/* <Link to='/come' className="hover:underline hover:underline-offset-8">찾아오시는 길</ Link> */}
       </ol>
     </div>
