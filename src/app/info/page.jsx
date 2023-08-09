@@ -3,7 +3,7 @@ const Info = () => {
     <div className="flex flex-col items-center">
 
       <div className="flex flex-col items-center">
-      <img className="w-52 my-10" src="/Info.jpeg" alt="" />
+      <img className="w-52 my-10" src="/Info2.jpeg" alt="" />
       </div>
       
       {/* <h1 className="text-center text-5xl">대표자 이력</h1> <br /> <br /> */}
