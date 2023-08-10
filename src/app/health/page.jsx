@@ -20,9 +20,9 @@ const Notion = async () => {
   })
   const result = notionData?.map((item, index) => {
 
-    const tag = item.properties.Tag.multi_select[0].name;
+    const tag = item.properties.Tag.multi_select[0]?.name;
 
-    if(tag == '대내외활동') {
+    if(tag !== '정보방') {
       return;
     }
 
