@@ -22,7 +22,7 @@ const Notion = async () => {
 
     const tag = item.properties.Tag.multi_select[0].name;
 
-    if(tag == '정보방') {
+    if(tag == '대내외활동') {
       return;
     }
 
