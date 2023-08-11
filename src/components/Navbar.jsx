@@ -2,8 +2,8 @@ import Link from 'next/link';
 
 const Navbar = () => {
   return (
-    <div className="bg-stone-800 h-16 flex items-center p-5 w-screen">
-      <ol className="flex gap-7 items-center p-2 text-stone-200">
+    <div className="bg-stone-800 h-20 flex items-center p-5 w-screen text-2xl">
+      <ol className="flex gap-6 items-center p-2 text-stone-200">
         <Link href='/' className="hover:underline hover:underline-offset-8">홈</Link>
         <Link href='/business' className="hover:underline hover:underline-offset-8">사업안내</Link>
         <Link href='/company' className="hover:underline hover:underline-offset-8">인사말</Link>
