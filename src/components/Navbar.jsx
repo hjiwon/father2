@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Navbar = () => {
   return (
-    <div className="bg-stone-800 h-28 flex items-center pl-5 w-screen text-2.5xl">
+    <div className="bg-stone-800 h-20 flex items-center pl-5 w-screen text-2.5xl">
       <ol className="flex gap-4 items-center text-stone-200">
         <Link href='/' className="hover:underline hover:underline-offset-8">홈</Link>
         <Link href='/business' className="hover:underline hover:underline-offset-8">사업안내</Link>
