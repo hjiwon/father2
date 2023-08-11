@@ -5,14 +5,14 @@ const Hello = () => {
         <div className="flex flex-col items-center mb-20">
 
           <h1 className='text-4xl font-bold mt-20 mb-5'>대표자 인사말</h1>
-          <div className="h-10 w-1 border border-x-2 border-stone-400 mb-10"/>
+          <div className="h-10 w-1 border border-x-2 border-stone-400 mb-0"/>
           
-          <div className="flex my-10 gap-20 pb-20 border-b-4">
-            <div className="w-1/2 flex items-center justify-center">
+          <div className="flex flex-col my-10 gap-20 pb-20 border-b-4">
+            <div className="w-full flex items-center justify-center">
               <Image className="w-80 my-10 object-contain" src="/Hello.jpeg" alt="" width={1000} height={1000} />
             </div>
-            <div className="break-words w-1/2">
-              <span className="text-xl font-semibold">반갑습니다! <br /> <br /></span>
+            <div className="break-words w-full">
+              <span className="text-2xl font-semibold">반갑습니다! <br /> <br /></span>
               사육신 건강지킴이 연구소 <br />
               대표 황 순 창 입니다. <br /> <br />
 
@@ -41,15 +41,15 @@ const Hello = () => {
 
 
         <h1 className='text-4xl font-bold mt-20 mb-5'>대표자 소개</h1>
-          <div className="h-10 w-1 border border-x-2 border-stone-400 mb-10"/>
+          <div className="h-10 w-1 border border-x-2 border-stone-400 mb-0"/>
 
 
-          <div className="flex items-center my-10 gap-20">   
-            <div className="w-1/2 flex items-center justify-center">     
+          <div className="flex flex-col items-center my-10 gap-20">   
+            <div className="w-full flex items-center justify-center">     
               <Image className="w-80 mt-16 object-contain" src="/Info2.jpeg" alt="" width={1000} height={1000} />
             </div>
 
-            <div className="break-words w-1/2">
+            <div className="break-words w-full">
               <span className="text-2xl font-semibold">황순창 </span>
               <span className="text-base text-gray-500 font-semibold">黃淳昶, Sunchang Hwang <br /> <br /></span>
             
