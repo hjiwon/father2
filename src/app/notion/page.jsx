@@ -8,6 +8,7 @@ const Notion = async () => {
     auth: process.env.NOTION_KEY
   })
   const databaseId = process.env.NOTION_DATABASE_ID
+
   let error;
 
   await notion.databases.query({
@@ -18,6 +19,7 @@ const Notion = async () => {
     console.log(err)
     error = true;
   })
+  
   const result = notionData?.map((item, index) => {
 
     const tag = item.properties.Tag.multi_select[0]?.name;
