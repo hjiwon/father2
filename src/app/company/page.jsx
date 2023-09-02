@@ -56,7 +56,8 @@ const Hello = () => {
               <span >
                 (현)&nbsp;&nbsp;&nbsp;&nbsp;{`사육신 건강지킴이 연구소 대표`} <br />
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{`채용 · 승진 등 면접관`}<br />
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{`화성특례시 준비위원회 의원`}<br /> <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{`화성특례시 준비위원회 의원`}<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{`민주평화통일자문회의 위원`}<br /> <br />
 
                 (전) &nbsp;&nbsp;&nbsp;{`국민건강보험공단 지사장`} <br />
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{`국민건강보험공단 감사실`}<br />
