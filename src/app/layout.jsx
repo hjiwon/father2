@@ -1,6 +1,7 @@
 import './globals.css'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import Head from 'next/head'
 
 <meta name="naver-site-verification" content="78c8a6448da31594b4fc8aaf1de315b66bb9da2e" />
 
@@ -21,7 +22,7 @@ export default function RootLayout({ children }) {
         <meta content='/banner.jpeg' property="og:image" />
         <meta name="naver-site-verification" content="78c8a6448da31594b4fc8aaf1de315b66bb9da2e" />
       </Head>
-      
+
       <body className="">
         <Navbar />
         {children}
