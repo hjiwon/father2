@@ -11,10 +11,10 @@ const Hello = () => {
             <div className="w-full flex items-center justify-center">
               <Image className="w-80 my-10 object-contain" src="/Hello.jpeg" alt="" width={1000} height={1000} />
             </div>
-            <div className="break-words w-full">
-              <span className="text-2xl font-semibold">반갑습니다! <br /> <br /></span>
-              사육신 건강지킴이 연구소 <br />
-              대표 황 순 창 입니다. <br /> <br />
+            <div className="break-words w-full flex flex-col">
+              <span className="text-2xl font-semibold h-12">반갑습니다! <br /> </span>
+
+              <span>
 
               건강지킴이 연구소는 <br />
               사회보건기구(WHO)의 이념으로 <br />
@@ -35,7 +35,14 @@ const Hello = () => {
 
               여러분들의 적극적인 협력과 지지를 당부드립니다. <br /> <br />
 
-              건강하세요! <br /> <br />
+              건강하세요! <br /> <br /> <br />
+ 
+              <div className="flex">
+              사육신 건강지킴이 연구소   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   <Image src="/PUAC.png" alt="" width={200} height={500} /><br /> 
+              </div>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;대표 황 순 창 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   화성시 지회장 황순창<br />
+              
+              </span>
             </div>
           </div>
 
