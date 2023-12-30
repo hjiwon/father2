@@ -37,10 +37,18 @@ const Hello = () => {
 
               건강하세요! <br /> <br /> <br />
  
-              <div className="flex">
-              사육신 건강지킴이 연구소   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   <Image src="/PUAC.png" alt="" width={200} height={500} /><br /> 
+              <div className="flex font-bold">
+              사육신 건강지킴이 연구소    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <Image width={200} height={500} className="sm:w-48 w-44" src="/PUAC.png" alt="" /><br /> 
               </div>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;대표 황 순 창 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   화성시 지회장 황순창<br />
+              <div className="flex justify-end">
+                <div className="w-36 sm:w-40">
+                대표 황 순 창
+                </div>    
+                <div className="w-48 sm:w-44">
+                  화성시 지회장 황 순 창
+                </div>
+              </div>
+              <br />
               
               </span>
             </div>
